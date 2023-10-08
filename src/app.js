@@ -1,5 +1,6 @@
 import moonFestivalImage from './images/moon-festival.webp';
-import { Greeting } from "./Greetings";
+import { Eats_fish } from "./Greetings";
+import { Animage } from './extra_image';
 
 export function App() {
     return (
@@ -12,7 +13,8 @@ export function App() {
         }}>
             <img src={moonFestivalImage} className='w-72' />
             <h1 className="text-blue-400">Hello world Again!</h1>
-            <Greeting />
+            <Eats_fish />
+            <Animage />
         </div>
     );
 
